@@ -1,5 +1,6 @@
-def display_rainbow(colors)
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-puts "R: #{colors [1]}, O: #{colors [2]}, Y: #{colors [3]}, G: #{colors [4]}, B: #{colors [5]}, I: #{colors [6]}, V: #{colors [7]}"
 
+color_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+def display_rainbow(color_list)
+  puts "R: #{color_list[0]}, O: #{color_list[1]}, Y: #{color_list[2]}, G: #{color_list[3]}, B: #{color_list[4]}, I: #{color_list[5]}, V: #{color_list[6]}"
 end
