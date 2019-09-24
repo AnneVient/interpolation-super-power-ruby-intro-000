@@ -1,4 +1,4 @@
 def display_rainbow(colors)
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-print "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
+print "R: #{colors [1]}, O: #{colors [2]}, Y: #{colors [3]}, G: #{colors [4]}, B: #{colors [5]}, I: #{colors [6]}, V: #{colors [7]}"
 end
